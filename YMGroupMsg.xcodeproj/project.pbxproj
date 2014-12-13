@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB4C4B1D1A3C0AD600445E97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4C4B1C1A3C0AD600445E97 /* main.m */; };
+		CB4C4B201A3C0AD600445E97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4C4B1F1A3C0AD600445E97 /* AppDelegate.m */; };
+		CB4C4B2B1A3C0AD600445E97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB4C4B291A3C0AD600445E97 /* LaunchScreen.xib */; };
+		CB4C4B371A3C0AD600445E97 /* YMGroupMsgTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4C4B361A3C0AD600445E97 /* YMGroupMsgTests.m */; };
+		CB4C4B411A3C0B1700445E97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4C4B401A3C0B1700445E97 /* Main.storyboard */; };
+		CB4C4B431A3C0B4700445E97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4C4B421A3C0B4700445E97 /* Images.xcassets */; };
+		CB4C4B491A3C0B9B00445E97 /* YMGroupMsgTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4C4B461A3C0B9B00445E97 /* YMGroupMsgTextCell.m */; };
+		CB4C4B4A1A3C0B9B00445E97 /* YMGroupMsgImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4C4B481A3C0B9B00445E97 /* YMGroupMsgImageCell.m */; };
+		CB4C4B4E1A3C0C7B00445E97 /* GroupMsgInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4C4B4D1A3C0C7B00445E97 /* GroupMsgInfo.m */; };
+		CB4C4B511A3C0CA600445E97 /* YMGroupMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4C4B501A3C0CA600445E97 /* YMGroupMsgViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB4C4B311A3C0AD600445E97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB4C4B0F1A3C0AD600445E97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB4C4B161A3C0AD600445E97;
+			remoteInfo = YMGroupMsg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB4C4B171A3C0AD600445E97 /* YMGroupMsg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMGroupMsg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4C4B1B1A3C0AD600445E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB4C4B1C1A3C0AD600445E97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB4C4B1E1A3C0AD600445E97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB4C4B1F1A3C0AD600445E97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB4C4B2A1A3C0AD600445E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB4C4B301A3C0AD600445E97 /* YMGroupMsgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMGroupMsgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4C4B351A3C0AD600445E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB4C4B361A3C0AD600445E97 /* YMGroupMsgTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMGroupMsgTests.m; sourceTree = "<group>"; };
+		CB4C4B401A3C0B1700445E97 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CB4C4B421A3C0B4700445E97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB4C4B451A3C0B9B00445E97 /* YMGroupMsgTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMGroupMsgTextCell.h; sourceTree = "<group>"; };
+		CB4C4B461A3C0B9B00445E97 /* YMGroupMsgTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMGroupMsgTextCell.m; sourceTree = "<group>"; };
+		CB4C4B471A3C0B9B00445E97 /* YMGroupMsgImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMGroupMsgImageCell.h; sourceTree = "<group>"; };
+		CB4C4B481A3C0B9B00445E97 /* YMGroupMsgImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMGroupMsgImageCell.m; sourceTree = "<group>"; };
+		CB4C4B4C1A3C0C7B00445E97 /* GroupMsgInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupMsgInfo.h; sourceTree = "<group>"; };
+		CB4C4B4D1A3C0C7B00445E97 /* GroupMsgInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupMsgInfo.m; sourceTree = "<group>"; };
+		CB4C4B4F1A3C0CA600445E97 /* YMGroupMsgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMGroupMsgViewController.h; sourceTree = "<group>"; };
+		CB4C4B501A3C0CA600445E97 /* YMGroupMsgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMGroupMsgViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB4C4B141A3C0AD600445E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4C4B2D1A3C0AD600445E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB4C4B0E1A3C0AD600445E97 = {
+			isa = PBXGroup;
+			children = (
+				CB4C4B191A3C0AD600445E97 /* YMGroupMsg */,
+				CB4C4B331A3C0AD600445E97 /* YMGroupMsgTests */,
+				CB4C4B181A3C0AD600445E97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB4C4B181A3C0AD600445E97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB4C4B171A3C0AD600445E97 /* YMGroupMsg.app */,
+				CB4C4B301A3C0AD600445E97 /* YMGroupMsgTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB4C4B191A3C0AD600445E97 /* YMGroupMsg */ = {
+			isa = PBXGroup;
+			children = (
+				CB4C4B4B1A3C0C6F00445E97 /* YMGroupInfo */,
+				CB4C4B441A3C0B9300445E97 /* YMGroupCell */,
+				CB4C4B1E1A3C0AD600445E97 /* AppDelegate.h */,
+				CB4C4B1F1A3C0AD600445E97 /* AppDelegate.m */,
+				CB4C4B4F1A3C0CA600445E97 /* YMGroupMsgViewController.h */,
+				CB4C4B501A3C0CA600445E97 /* YMGroupMsgViewController.m */,
+				CB4C4B401A3C0B1700445E97 /* Main.storyboard */,
+				CB4C4B421A3C0B4700445E97 /* Images.xcassets */,
+				CB4C4B291A3C0AD600445E97 /* LaunchScreen.xib */,
+				CB4C4B1A1A3C0AD600445E97 /* Supporting Files */,
+			);
+			path = YMGroupMsg;
+			sourceTree = "<group>";
+		};
+		CB4C4B1A1A3C0AD600445E97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB4C4B1B1A3C0AD600445E97 /* Info.plist */,
+				CB4C4B1C1A3C0AD600445E97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB4C4B331A3C0AD600445E97 /* YMGroupMsgTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB4C4B361A3C0AD600445E97 /* YMGroupMsgTests.m */,
+				CB4C4B341A3C0AD600445E97 /* Supporting Files */,
+			);
+			path = YMGroupMsgTests;
+			sourceTree = "<group>";
+		};
+		CB4C4B341A3C0AD600445E97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB4C4B351A3C0AD600445E97 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB4C4B441A3C0B9300445E97 /* YMGroupCell */ = {
+			isa = PBXGroup;
+			children = (
+				CB4C4B451A3C0B9B00445E97 /* YMGroupMsgTextCell.h */,
+				CB4C4B461A3C0B9B00445E97 /* YMGroupMsgTextCell.m */,
+				CB4C4B471A3C0B9B00445E97 /* YMGroupMsgImageCell.h */,
+				CB4C4B481A3C0B9B00445E97 /* YMGroupMsgImageCell.m */,
+			);
+			path = YMGroupCell;
+			sourceTree = "<group>";
+		};
+		CB4C4B4B1A3C0C6F00445E97 /* YMGroupInfo */ = {
+			isa = PBXGroup;
+			children = (
+				CB4C4B4C1A3C0C7B00445E97 /* GroupMsgInfo.h */,
+				CB4C4B4D1A3C0C7B00445E97 /* GroupMsgInfo.m */,
+			);
+			path = YMGroupInfo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB4C4B161A3C0AD600445E97 /* YMGroupMsg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB4C4B3A1A3C0AD600445E97 /* Build configuration list for PBXNativeTarget "YMGroupMsg" */;
+			buildPhases = (
+				CB4C4B131A3C0AD600445E97 /* Sources */,
+				CB4C4B141A3C0AD600445E97 /* Frameworks */,
+				CB4C4B151A3C0AD600445E97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMGroupMsg;
+			productName = YMGroupMsg;
+			productReference = CB4C4B171A3C0AD600445E97 /* YMGroupMsg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB4C4B2F1A3C0AD600445E97 /* YMGroupMsgTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB4C4B3D1A3C0AD600445E97 /* Build configuration list for PBXNativeTarget "YMGroupMsgTests" */;
+			buildPhases = (
+				CB4C4B2C1A3C0AD600445E97 /* Sources */,
+				CB4C4B2D1A3C0AD600445E97 /* Frameworks */,
+				CB4C4B2E1A3C0AD600445E97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB4C4B321A3C0AD600445E97 /* PBXTargetDependency */,
+			);
+			name = YMGroupMsgTests;
+			productName = YMGroupMsgTests;
+			productReference = CB4C4B301A3C0AD600445E97 /* YMGroupMsgTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB4C4B0F1A3C0AD600445E97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Henizaiyiqi;
+				TargetAttributes = {
+					CB4C4B161A3C0AD600445E97 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CB4C4B2F1A3C0AD600445E97 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CB4C4B161A3C0AD600445E97;
+					};
+				};
+			};
+			buildConfigurationList = CB4C4B121A3C0AD600445E97 /* Build configuration list for PBXProject "YMGroupMsg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB4C4B0E1A3C0AD600445E97;
+			productRefGroup = CB4C4B181A3C0AD600445E97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB4C4B161A3C0AD600445E97 /* YMGroupMsg */,
+				CB4C4B2F1A3C0AD600445E97 /* YMGroupMsgTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB4C4B151A3C0AD600445E97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4C4B431A3C0B4700445E97 /* Images.xcassets in Resources */,
+				CB4C4B411A3C0B1700445E97 /* Main.storyboard in Resources */,
+				CB4C4B2B1A3C0AD600445E97 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4C4B2E1A3C0AD600445E97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB4C4B131A3C0AD600445E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4C4B511A3C0CA600445E97 /* YMGroupMsgViewController.m in Sources */,
+				CB4C4B4A1A3C0B9B00445E97 /* YMGroupMsgImageCell.m in Sources */,
+				CB4C4B201A3C0AD600445E97 /* AppDelegate.m in Sources */,
+				CB4C4B4E1A3C0C7B00445E97 /* GroupMsgInfo.m in Sources */,
+				CB4C4B491A3C0B9B00445E97 /* YMGroupMsgTextCell.m in Sources */,
+				CB4C4B1D1A3C0AD600445E97 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4C4B2C1A3C0AD600445E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4C4B371A3C0AD600445E97 /* YMGroupMsgTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB4C4B321A3C0AD600445E97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB4C4B161A3C0AD600445E97 /* YMGroupMsg */;
+			targetProxy = CB4C4B311A3C0AD600445E97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB4C4B291A3C0AD600445E97 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB4C4B2A1A3C0AD600445E97 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB4C4B381A3C0AD600445E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB4C4B391A3C0AD600445E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB4C4B3B1A3C0AD600445E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = YMGroupMsg/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB4C4B3C1A3C0AD600445E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = YMGroupMsg/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB4C4B3E1A3C0AD600445E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YMGroupMsgTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMGroupMsg.app/YMGroupMsg";
+			};
+			name = Debug;
+		};
+		CB4C4B3F1A3C0AD600445E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YMGroupMsgTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMGroupMsg.app/YMGroupMsg";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB4C4B121A3C0AD600445E97 /* Build configuration list for PBXProject "YMGroupMsg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4C4B381A3C0AD600445E97 /* Debug */,
+				CB4C4B391A3C0AD600445E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB4C4B3A1A3C0AD600445E97 /* Build configuration list for PBXNativeTarget "YMGroupMsg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4C4B3B1A3C0AD600445E97 /* Debug */,
+				CB4C4B3C1A3C0AD600445E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB4C4B3D1A3C0AD600445E97 /* Build configuration list for PBXNativeTarget "YMGroupMsgTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4C4B3E1A3C0AD600445E97 /* Debug */,
+				CB4C4B3F1A3C0AD600445E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB4C4B0F1A3C0AD600445E97 /* Project object */;
+}
