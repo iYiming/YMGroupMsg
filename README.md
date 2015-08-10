@@ -5,7 +5,7 @@ YMGroupMsg
 
 效果图如下：
 
-添加文字测试：
+删除文本:
 
 hahah
 
