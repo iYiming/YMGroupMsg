@@ -5,4 +5,6 @@ YMGroupMsg
 
 效果图如下：
 
+添加文字测试：
+
 ![Auto Layout](Screenshots/autolayout_combat_01.png)  
