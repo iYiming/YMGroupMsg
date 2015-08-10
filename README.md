@@ -5,8 +5,4 @@ YMGroupMsg
 
 效果图如下：
 
-删除文本:
-
-hahah
-
 ![Auto Layout](Screenshots/autolayout_combat_01.png)  
